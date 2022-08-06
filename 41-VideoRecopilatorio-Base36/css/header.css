@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header figure {
+    width: 100px;
+}
+
+header figure img{
+    width: 100%;
+}
+
+
+header nav ul {
+    display: flex;
+    gap: 5px;
+    list-style-type: none;
+    font-size: x-large;
+}
+
+header nav  {
+padding-right: 20px ;
+}
+
+header nav li a{
+    text-decoration: none;
+    padding: 10px 12px;
+    color: rgb(15, 15, 15);
+}
+
+header nav li a:hover{
+    background-color: rgb(15, 15, 15);
+    color: white
+}
+
+.logo {
+    padding-left: 10px;
+    padding-top: 10px;
+}
