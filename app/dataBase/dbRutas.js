@@ -395,8 +395,8 @@ const dbRutas = [
     },
     {
         id: "3",
-        category: "Libros",
-        linkHref: "",
+        category: "libros",
+        linkHref: "../page/libros.html",
         targetType : "",
         imgSrc: "../public/images/librosWebDeveloper.png",
         titleH2: "Libros y Guias",
