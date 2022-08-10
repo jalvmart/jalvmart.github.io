@@ -179,7 +179,8 @@ ul b {
     display: block;
     text-decoration: none;
     font-size: 16px;
-    color: rgb(14, 14, 14);
+    font-weight: 800;
+    color: rgb(12, 8, 241);
     top: 0px;
     margin-bottom: 15px;
 
