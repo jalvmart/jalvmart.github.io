@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTLM y CSS Básico</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body id="inicio">
+    <div id="bloque0" class="bloque0"></div>    
+    <header id="menuAppHeader" class="header"></header>
+    
+    <main role="main">
+        <section>
+            <article>
+                <h2>Conceptos b&aacute;sicos de HTML</h2>
+                <div>
+                    <p>HTML (
+                        Hyper&nbsp;<strong>T</strong>&nbsp;ext&nbsp;<strong>M</strong>&nbsp;arkup&nbsp;<strong>L</strong>&nbsp;anguage&nbsp;<strong>)</strong>&nbsp;es
+                        el c&oacute;digo que se utiliza para estructurar una p&aacute;gina web y su contenido.&nbsp;Por
+                        ejemplo,
+                        el contenido podr&iacute;a estructurarse dentro de un conjunto de p&aacute;rrafos, una lista de
+                        puntos
+                        con vi&ntilde;etas o utilizando im&aacute;genes y tablas de datos.&nbsp;Como sugiere el
+                        t&iacute;tulo,
+                        este art&iacute;culo le dar&aacute; una comprensi&oacute;n b&aacute;sica de HTML y sus
+                        funciones.</p>
+                </div>
+            </article>
+            <article>
+                <h2><a title="Enlace permanente a Entonces, &iquest;qu&eacute; es HTML?"
+                        href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#so_what_is_html">Entonces,
+                        &iquest;qu&eacute; es HTML?</a></h2>
+                <div>
+                    <p>HTML es un&nbsp;<em>lenguaje</em>&nbsp;de marcado que define la estructura de su
+                        contenido.&nbsp;HTML
+                        consta de una serie de&nbsp;<strong><a
+                                href="https://developer.mozilla.org/en-US/docs/Glossary/Element">elementos</a></strong>&nbsp;que
+                        se utilizan para encerrar o envolver diferentes partes del contenido para que se vea o
+                        act&uacute;e
+                        de cierta manera.&nbsp;Las&nbsp;<a
+                            href="https://developer.mozilla.org/en-US/docs/Glossary/Tag">etiquetas</a>&nbsp;adjuntas
+                        pueden
+                        hacer que una palabra o imagen se vincule a otro lugar, pueden poner palabras en cursiva, pueden
+                        hacer que la fuente sea m&aacute;s grande o m&aacute;s peque&ntilde;a, etc.</p>
+                    <h3><a title="Enlace permanente a Anatom&iacute;a de un elemento HTML"
+                            href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#anatomy_of_an_html_element">Anatom&iacute;a
+                            de un elemento HTML</a></h3>
+                    <p>Exploremos un poco m&aacute;s este elemento de p&aacute;rrafo.</p>
+                    <p>Las partes principales de nuestro elemento son las siguientes:</p>
+                    <ol>
+                        <li><strong>La etiqueta de apertura:</strong>&nbsp;Consiste en el nombre del elemento (en este
+                            caso,
+                            p), envuelto&nbsp;<strong>entre par&eacute;ntesis angulares</strong>&nbsp;de apertura y
+                            cierre
+                            .&nbsp;Esto indica d&oacute;nde comienza el elemento o comienza a surtir efecto; en este
+                            caso,
+                            donde comienza el p&aacute;rrafo.</li>
+                        <li><strong>La etiqueta de cierre:</strong>&nbsp;es lo mismo que la etiqueta de apertura,
+                            excepto
+                            que incluye una&nbsp;<em>barra inclinada</em>&nbsp;antes del nombre del elemento.&nbsp;Esto
+                            indica d&oacute;nde termina el elemento; en este caso, donde termina el
+                            p&aacute;rrafo.&nbsp;No
+                            agregar una etiqueta de cierre es uno de los errores est&aacute;ndar de los principiantes y
+                            puede generar resultados extra&ntilde;os.</li>
+                        <li><strong>El contenido:</strong>&nbsp;este es el contenido del elemento, que en este caso es
+                            solo
+                            texto.</li>
+                        <li><strong>El elemento:</strong>&nbsp;la etiqueta de apertura, la etiqueta de cierre y el
+                            contenido
+                            forman el elemento.</li>
+                    </ol>
+                    <p>Los elementos tambi&eacute;n pueden tener atributos.</p>
+                    <p>Los atributos contienen informaci&oacute;n adicional sobre el elemento que no desea que aparezca
+                        en
+                        el contenido real.&nbsp;Aqu&iacute;,&nbsp;<code>class</code>es el&nbsp;<em>nombre</em>&nbsp;del
+                        atributo y&nbsp;<code>editor-note</code>es el&nbsp;<em>valor</em>&nbsp;del atributo
+                        .&nbsp;El&nbsp;<code>class</code>atributo le permite dar al elemento un identificador no
+                        &uacute;nico que se puede usar para orientarlo (y cualquier otro elemento con el
+                        mismo&nbsp;<code>class</code>valor) con informaci&oacute;n de estilo y otras cosas.</p>
+                    <p>Un atributo siempre debe tener lo siguiente:</p>
+                    <ol>
+                        <li>Un espacio entre &eacute;ste y el nombre del elemento (o el atributo anterior, si el
+                            elemento ya
+                            tiene uno o m&aacute;s atributos).</li>
+                        <li>El nombre del atributo seguido de un signo igual.</li>
+                        <li>El valor del atributo envuelto por comillas de apertura y cierre.</li>
+                    </ol>
+                    <h3><a title="Enlace permanente a Elementos anidados"
+                            href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#nesting_elements">Elementos
+                            de anidamiento</a></h3>
+            </article>
+
+
+            <section aria-labelledby="so_what_is_html">
+
+                <div>
+                    <p>Tambi&eacute;n puede colocar elementos dentro de otros elementos; esto se
+                        denomina&nbsp;<strong>anidamiento</strong>&nbsp;.&nbsp;Si quisi&eacute;ramos decir que nuestro
+                        gato es&nbsp;<strong>muy</strong>&nbsp;gru&ntilde;&oacute;n, podr&iacute;amos envolver la
+                        palabra "muy" en un&nbsp;<a
+                            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong"><code>&lt;strong&gt;</code></a>elemento,
+                        lo que significa que la palabra debe enfatizarse fuertemente,</p>
+                    <p>Sin embargo, debe asegurarse de que sus elementos est&eacute;n anidados correctamente.&nbsp;En el
+                        ejemplo anterior, abrimos&nbsp;<a
+                            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p"><code>&lt;p&gt;</code></a>primero
+                        el elemento, luego el&nbsp;<a
+                            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong"><code>&lt;strong&gt;</code></a>elemento;&nbsp;por
+                        lo tanto, tenemos que cerrar&nbsp;<a
+                            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong"><code>&lt;strong&gt;</code></a>primero
+                        el elemento, luego el&nbsp;<a
+                            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p"><code>&lt;p&gt;</code></a>elemento.
+                    </p>
+                    <section aria-labelledby="nesting_elements">
+                        <div>
+                            <p>Los elementos tienen que abrirse y cerrarse correctamente para que queden claramente
+                                dentro o fuera unos de otros.&nbsp;Si se superponen como se muestra arriba, su navegador
+                                web intentar&aacute; hacer la mejor suposici&oacute;n de lo que estaba tratando de
+                                decir, lo que puede generar resultados inesperados.&nbsp;&iexcl;As&iacute; que no lo
+                                hagas!</p>
+                        </div>
+                    </section>
+                    <section aria-labelledby="empty_elements">
+                        <h3><a title="Enlace permanente a Elementos vac&iacute;os"
+                                href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#empty_elements">Elementos
+                                vacios</a></h3>
+                        <div>
+                            <p>Algunos elementos no tienen contenido y se denominan&nbsp;<strong>elementos
+                                    vac&iacute;os</strong>&nbsp;.</p>
+                            <section aria-labelledby="empty_elements">
+                                <div>
+                                    <p>Esto contiene dos atributos, pero no hay
+                                        una&nbsp;<code>&lt;/img&gt;</code>etiqueta de cierre ni contenido
+                                        interno.&nbsp;Esto se debe a que un elemento de imagen no envuelve el contenido
+                                        para afectarlo.&nbsp;Su prop&oacute;sito es incrustar una imagen en la
+                                        p&aacute;gina HTML en el lugar donde aparece.</p>
+                                </div>
+                            </section>
+                            <section aria-labelledby="anatomy_of_an_html_document">
+                                <h3><a title="Enlace permanente a Anatom&iacute;a de un documento HTML"
+                                        href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#anatomy_of_an_html_document">Anatom&iacute;a
+                                        de un documento HTML</a></h3>
+                                <div>
+                                    <p>Eso resume los conceptos b&aacute;sicos de los elementos HTML individuales, pero
+                                        no son &uacute;tiles por s&iacute; solos.&nbsp;Ahora veremos c&oacute;mo se
+                                        combinan elementos individuales para formar una p&aacute;gina HTML
+                                        completa.&nbsp;Revisemos el c&oacute;digo que pusimos en
+                                        nuestro&nbsp;<code>index.html</code>.</p>
+                                    <p>Aqu&iacute;, tenemos lo siguiente:</p>
+                                    <ul>
+                                        <li><code>&lt;!DOCTYPE html&gt;</code>&mdash; tipo de&nbsp;<a
+                                                href="https://developer.mozilla.org/en-US/docs/Glossary/Doctype">documento</a>&nbsp;.&nbsp;Es
+                                            un pre&aacute;mbulo obligatorio.&nbsp;En la noche de los tiempos, cuando
+                                            HTML era joven (alrededor de 1991/92), los doctypes estaban destinados a
+                                            actuar como enlaces a un conjunto de reglas que la p&aacute;gina HTML
+                                            ten&iacute;a que seguir para ser considerada un buen HTML, lo que
+                                            podr&iacute;a significar la verificaci&oacute;n autom&aacute;tica de errores
+                                            y otras cosas &uacute;tiles.&nbsp;Sin embargo, en estos d&iacute;as, no
+                                            hacen mucho y b&aacute;sicamente solo se necesitan para asegurarse de que su
+                                            documento se comporte correctamente.&nbsp;Eso es todo lo que necesitas saber
+                                            por ahora.</li>
+                                        <li><code>&lt;html&gt;&lt;/html&gt;</code>&mdash; el&nbsp;<a
+                                                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html"><code>&lt;html&gt;</code></a>elemento.&nbsp;Este
+                                            elemento envuelve todo el contenido de la p&aacute;gina completa y, a veces,
+                                            se lo conoce como el elemento ra&iacute;z.</li>
+                                        <li><code>&lt;head&gt;&lt;/head&gt;</code>&mdash; el&nbsp;<a
+                                                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head"><code>&lt;head&gt;</code></a>elemento.&nbsp;Este
+                                            elemento act&uacute;a como un contenedor para todo lo que desea incluir en
+                                            la p&aacute;gina HTML que&nbsp;<em>no es</em>&nbsp;el contenido que muestra
+                                            a los visitantes de su p&aacute;gina.&nbsp;Esto incluye cosas como&nbsp;<a
+                                                href="https://developer.mozilla.org/en-US/docs/Glossary/Keyword">palabras
+                                                clave</a>&nbsp;y una descripci&oacute;n de la p&aacute;gina que desea
+                                            que aparezca en los resultados de b&uacute;squeda, CSS para dise&ntilde;ar
+                                            nuestro contenido, declaraciones de conjuntos de caracteres y m&aacute;s.
+                                        </li>
+                                        <li><code>&lt;meta charset="utf-8"&gt;</code>&mdash; Este elemento establece el
+                                            conjunto de caracteres que debe usar su documento en UTF-8, que incluye la
+                                            mayor&iacute;a de los caracteres de la gran mayor&iacute;a de los idiomas
+                                            escritos.&nbsp;Esencialmente, ahora puede manejar cualquier contenido de
+                                            texto que pueda poner en &eacute;l.&nbsp;No hay raz&oacute;n para no
+                                            configurar esto y puede ayudar a evitar algunos problemas m&aacute;s
+                                            adelante.</li>
+                                        <li><code>&lt;title&gt;&lt;/title&gt;</code>&mdash; el&nbsp;<a
+                                                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title"><code>&lt;title&gt;</code></a>elemento.&nbsp;Esto
+                                            establece el t&iacute;tulo de su p&aacute;gina, que es el t&iacute;tulo que
+                                            aparece en la pesta&ntilde;a del navegador en la que se carga la
+                                            p&aacute;gina. Tambi&eacute;n se usa para describir la p&aacute;gina cuando
+                                            la marca como favorita.</li>
+                                        <li><code>&lt;body&gt;&lt;/body&gt;</code>&mdash; el&nbsp;<a
+                                                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body"><code>&lt;body&gt;</code></a>elemento.&nbsp;Contiene&nbsp;<em>todo</em>&nbsp;el
+                                            contenido que desea mostrar a los usuarios web cuando visitan su
+                                            p&aacute;gina, ya sea texto, im&aacute;genes, videos, juegos, pistas de
+                                            audio reproducibles o cualquier otra cosa.</li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                </div>
+            </section>
+        </section>
+
+        <aside>
+            <div class="imagen grupo"
+                style="background-image: url('https://carontestudio.com/blog/wp-content/uploads/2020/12/estructura-basica-html.jpg');">
+            </div>
+
+            <div class="imagen grupo"
+                style="background-image: url('https://besthqwallpapers.com/Uploads/28-8-2016/4460/thumb2-hacking-hackers-hacker-code-hack.jpg');">
+                <h3>TEMARIO</h3>
+                <div class="menuAside">
+                    <div class="col1-Grid">
+                        <p><a class="itemMenu" href="#op1">HTML Básico</a></p>
+                        <p><a class="itemMenu" href="#op2">Modelo de Caja</a></p>
+                        <p><a class="itemMenu" href="#op3">Cascada y Herencia</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="imagen grupo"
+                style="background-image: url('https://lenguajecss.com/css/modelo-de-cajas/que-es/modelo-de-cajas.png');">
+            </div>
+
+            <div class="imagen grupo"
+                style="background-image: url('https://disenowebakus.net/imagenes/articulos/estructura-basica-de-una-pagina-web-en-html.jpg');">
+
+            </div>
+
+
+        </aside>
+    </main>
+    <footer id="footer-section1">
+         
+    </footer>
+    <script src="../app/menu.js"></script>
+</body>
+
+</html>

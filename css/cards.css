@@ -1,0 +1,90 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;     
+    justify-content:center;
+   /*  align-content: center; */
+     
+}
+
+.cards-item {    
+    width: 22%;
+    height: auto;
+    border-left: 1px solid rgb(171, 171, 171); 
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px; 
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;   
+     
+}
+
+.cards-item h2,
+.cards-item h3
+{
+    margin: 0 0 0px;
+    padding: 0 5px 5px 5px;
+}   
+
+.cards-item p {
+    margin-bottom: 5px;
+    padding: 0 5px 5px 5px;
+}
+.cards-item h2 {
+    font-size: 15px;
+    
+}
+
+
+.cards-item h3 {
+    font-size: 14px;
+}
+
+
+.cards-item p {
+    font-size: 12px;
+     
+}
+
+
+.cards-item iframe {
+    object-fit: cover;
+    width: 100%;
+    height: 209px; 
+}
+
+.cards-item a img {
+    object-fit:fill;
+    width: 100%;
+    /* height: auto;  */    
+}
+
+
+
+.cards-item a img.imgCanalYoutube {
+    object-fit: cover;  
+    width: 100%;
+    height: auto;
+}
+
+.categoriaH2 {
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 900px){
+.cards-item {    
+    width: 45%;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .cards-item {
+        width: 100%;
+    }
+
+    .cards-item a img.imgCanalYoutube {
+        object-fit:contain;
+        width: 100%;
+        height: 200px;
+    }
+}
