@@ -39,32 +39,27 @@ main {
  
 
 
-#contenedorVideo {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center;
-    align-content: center; */
-    position: fixed; 
-    background: #2c2b2b;
-    
-    top: 10%;
-    
-    left: 20%; 
+
+#contenedorVideo {    
+    position: fixed;      
+    top: 10%; 
+    width: 100%;    
 }
 
+
 #mostrarVideo {
-    display: block;
+    margin: 0 auto;
     width: 750px;
     height: 430px;
-    border: 5px solid rgba(0, 0, 0, 0.672);
+    border: 2px solid rgba(0, 0, 0, 0.672);
+    background-color: black;
 } 
 
 #botonCerrar {
-    display: block;
-    position : absolute;    
-    margin : 0 auto; 
-    top : -2%;
-    right : -1%; 
+    position: fixed;
+    top : 8%;    
+    margin: 0 auto;
+    right: 50%;    
     width : 30px;
     height : 30px;
     font-size : 22px;
@@ -77,41 +72,9 @@ main {
 
 @media screen and (max-width:1200px) {
     .ficha-video-item {
-        width: 48%;
-        
-    }
-    #contenedorVideo { 
-        display: block; 
-        width: 550px;
-        height: 330px;   
-            
-        top: 15%;
-        left: 10px;
-    
-     
+        width: 48%;        
     }
     
-    #mostrarVideo {      
-        width: 100%;
-        height: 100%;
-        
-    } 
-    
-    #botonCerrar {
-        display: block;
-        position : absolute;    
-        margin : 0 auto; 
-        top : -5%;
-        right: 0; 
-        width : 30px;
-        height : 30px; 
-        font-size : 20px;
-        border-radius : 50%;
-        border : 2px solid rgb(245, 245, 245);
-        background : black;
-        color : white;
-        cursor: pointer;
-    }
     
 }
 
@@ -120,38 +83,7 @@ main {
         width: 100%;
         
     }
-    #contenedorVideo { 
-        display: block; 
-        width: 95%;
-        /* height: 300px;  */  
-            
-        top: 20%;
-        left: 10px;
+
     
-     
-    }
-    
-    #mostrarVideo {      
-        width: 100%;
-        height: 100%;
-        border: 5px solid rgba(0, 0, 0, 0.672);
-        
-    } 
-    
- /*    #botonCerrar {
-        display: block;
-        position : absolute;    
-        margin : 0 auto; 
-        top : -5%;
-        right: 0; 
-        width : 30px;
-        height : 30px; 
-        font-size : 20px;
-        border-radius : 50%;
-        border : 2px solid rgb(245, 245, 245);
-        background : black;
-        color : white;
-        cursor: pointer;
-    } */
     
 }
