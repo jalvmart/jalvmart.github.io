@@ -564,9 +564,9 @@ const dbRutas = [
     {
         id: "12",
         category: "Code-R11",
-        linkHref: "",
+        linkHref: "../page/proyecto-code-r11.html",
         targetType : "",
-        imgSrc: "../public/images/ruta-code-r11.png",
+        imgSrc: "../public/images/coder11.jpg",
         titleH2: "Ruta de Aprendizaje y Plan de Estudio Code R11",
         titleH3: "",
         contents: "",
