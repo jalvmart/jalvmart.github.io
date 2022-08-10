@@ -1,43 +1,24 @@
-## Welcome to GitHub Pages
+# PROYECTO CODE R11
 
-You can use the [editor on GitHub](https://github.com/jalvmart/jalvmart.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+![imagen](/public/images/logo-code-r11-04.png) 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[ir al proyecto Web Developer Code R11](https://jalvmart.github.io/page/index.html)
 
-### Markdown
+## APRENDIZAJE ACTIVO
+Bienvenidos a Code R11, tu ruta de aprendizaje activo para dominar el diseño y desarrollo web. Un proyecto centrado en el ecosistema de JavaScript como pilar fundamental para tu aprendizaje.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Objetivos
+El proyecto Code R11, nace con el objetivo de mostrarte el camino más corto que debes recorrer para reducir la curva de aprendizaje. Todo esto, mientras que adoptas buenas prácticas y enfocas tu aprendizaje a una ruta predeterminada. Es un mapa de aprendizaje para desarrolladores web. Donde te ofrecemos una ruta estructurada y bien definida de los lenguajes, herramientas y tecnologías que debes usar en cada paso. Nuestra meta es lograr que te conviertas en un desarrollador web profesional en el menor tiempo posible.
 
-```markdown
-Syntax highlighted code block
+## Misión
+Nuestra misión es que todo nuevo programador se construya una base sólida con los tres pilares básicos del desarrollo web moderno: HTML, CSS y JavaScript.
 
-# Header 1
-## Header 2
-### Header 3
+Es por ello que en Code R11 hemos organizado en 11 categorías toda la información necesaria para tu aprendizaje activo. Además, estamos orgullosos de que esta plataforma te sirva como guía para tu aprendizaje.
 
-- Bulleted
-- List
+## Visión
+Nuestra visión es hacer que el aprendizaje web en Latinoamérica se convierta en un proceso divertido, desafiante y más colaborativo. Donde los jóvenes tengan acceso a este conocimiento digital, puedan aprender desde la fuente principal y se incorporen como profesionales en el desarrollo web al mercado laboral.
 
-1. Numbered
-2. List
+Así que, enfócate, practica y avanza con CODE R11.
 
-**Bold** and _Italic_ and `Code` text
+[ir al proyecto Web Developer Code R11](https://jalvmart.github.io/page/index.html)
 
-[Link](url) and ![Image](src)
-```
-
-[Ejercicio 1](https://jalvmart.github.io/ejercicio1.html)
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-[Página de Prueba](https://jalvmart.github.io/ejercicio1.html)
-
-[Video Recopilatorio](https://jalvmart.github.io/41-VideoRecopilatorio-Base36/index.html)
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jalvmart/jalvmart.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
