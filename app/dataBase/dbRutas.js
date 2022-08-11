@@ -441,6 +441,15 @@ const dbRutas = [
                 contents: "Google Fonts es una biblioteca de 1442 familias de fuentes de código abierto y API para un uso conveniente a través de CSS y Android.",
                 linkCodeR11: "",
             },
+            {
+                linkHref: "https://roadmap.sh/frontend",
+                targetType: "_blank",
+                imgSrc: "../public/images/app/roadmap-SH.jpg",
+                titleH2: "Roadmap SH",
+                titleH3: "Desarrollador front-end",
+                contents: "Guía paso a paso para convertirse en un desarrollador frontend moderno en 2022",
+                linkCodeR11: "",
+            },
         ]
     },
     {
