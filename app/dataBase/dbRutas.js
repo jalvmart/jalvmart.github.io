@@ -3,7 +3,7 @@ const dbRutas = [
         id: "1",
         category: "sitios-web",
         linkHref: "sitios-web.html",
-        targetType : "",
+        targetType: "",
         imgSrc: "../public/images/sitios-web.png",
         titleH2: "Sitios Web Oficiales con cursos online",
         titleH3: "",
@@ -11,7 +11,7 @@ const dbRutas = [
         group: [
             {
                 linkHref: "../page/w3schools.html",
-                targetType : "",
+                targetType: "",
                 imgSrc: "../public/images/sitios-web/w3schools.jpg",
                 titleH2: "W3Schools",
                 titleH3: "",
@@ -20,7 +20,7 @@ const dbRutas = [
                 cursos: [
                     {
                         linkHref: "https://www.w3schools.com/html/default.asp",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "../public/images/app/html.jpg",
                         titleH2: "Curso HTML",
                         titleH3: "W3Schools",
@@ -29,7 +29,7 @@ const dbRutas = [
                     },
                     {
                         linkHref: "https://www.w3schools.com/css/default.asp",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "../public/images/app/css.jpg",
                         titleH2: "Curso CSS",
                         titleH3: "W3Schools",
@@ -38,7 +38,7 @@ const dbRutas = [
                     },
                     {
                         linkHref: "https://www.w3schools.com/js/default.asp",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "../public/images/app/javascript.jpg",
                         titleH2: "Curso JavaScript",
                         titleH3: "W3Schools",
@@ -47,7 +47,7 @@ const dbRutas = [
                     },
                     {
                         linkHref: "https://www.w3schools.com/js/js_json_intro.asp",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "../public/images/app/javascript.jpg",
                         titleH2: "JSON",
                         titleH3: "W3Schools",
@@ -58,7 +58,7 @@ const dbRutas = [
             },
             {
                 linkHref: "../page/mdn.html",
-                targetType : "",
+                targetType: "",
                 imgSrc: "../public/images/sitios-web/mdn-web-docs.jpg",
                 titleH2: "MDN Web Docs",
                 titleH3: "",
@@ -67,7 +67,7 @@ const dbRutas = [
                 cursos: [
                     {
                         linkHref: "https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "../public/images/app/mdn-web-docs.jpg",
                         titleH2: "Introducción práctica al desarrollo de la web",
                         titleH3: "MDN Web Docs",
@@ -76,7 +76,7 @@ const dbRutas = [
                     },
                     {
                         linkHref: "https://developer.mozilla.org/es/docs/Learn/HTML",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "../public/images/app/html.jpg",
                         titleH2: "Semántica y estructura con HTML",
                         titleH3: "MDN Web Docs",
@@ -85,7 +85,7 @@ const dbRutas = [
                     },
                     {
                         linkHref: "https://developer.mozilla.org/es/docs/Learn/CSS",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "../public/images/app/css.jpg",
                         titleH2: "Estilo y diseño con CSS",
                         titleH3: "MDN Web Docs",
@@ -94,7 +94,7 @@ const dbRutas = [
                     },
                     {
                         linkHref: "https://developer.mozilla.org/es/docs/Learn/JavaScript",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "../public/images/app/javascript.jpg",
                         titleH2: "Interactividad con JavaScript",
                         titleH3: "MDN Web Docs",
@@ -103,7 +103,7 @@ const dbRutas = [
                     },
                     {
                         linkHref: "https://developer.mozilla.org/es/docs/Learn/Forms",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "../public/images/app/mdn-web-docs.jpg",
                         titleH2: "Formularios web",
                         titleH3: "MDN Web Docs",
@@ -112,7 +112,7 @@ const dbRutas = [
                     },
                     {
                         linkHref: "https://developer.mozilla.org/es/docs/Learn/Accessibility",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "../public/images/app/mdn-web-docs.jpg",
                         titleH2: "Hacer que la web funcione para todos",
                         titleH3: "MDN Web Docs",
@@ -121,7 +121,7 @@ const dbRutas = [
                     },
                     {
                         linkHref: "https://developer.mozilla.org/es/docs/Learn/Tools_and_testing",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "../public/images/app/github.jpg",
                         titleH2: "Herramientas modernas",
                         titleH3: "MDN Web Docs",
@@ -130,7 +130,7 @@ const dbRutas = [
                     },
                     {
                         linkHref: "https://developer.mozilla.org/es/docs/Learn/Performance",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "../public/images/app/mdn-web-docs.jpg",
                         titleH2: "Rendimiento web",
                         titleH3: "MDN Web Docs",
@@ -139,7 +139,7 @@ const dbRutas = [
                     },
                     {
                         linkHref: "https://developer.mozilla.org/es/docs/Learn/Server-side",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "../public/images/app/nodejs.jpg",
                         titleH2: "Programación del lado servidor",
                         titleH3: "MDN Web Docs",
@@ -150,7 +150,7 @@ const dbRutas = [
             },
             {
                 linkHref: "../page/microsoft.html",
-                targetType : "",
+                targetType: "",
                 imgSrc: "../public/images/sitios-web/microsoft.jpg",
                 titleH2: "Microsoft",
                 titleH3: "",
@@ -185,7 +185,7 @@ const dbRutas = [
             },
             {
                 linkHref: "../page/w3c.html",
-                targetType : "",
+                targetType: "",
                 imgSrc: "../public/images/sitios-web/w3c.jpg",
                 titleH2: "W3Cx",
                 titleH3: "",
@@ -194,7 +194,7 @@ const dbRutas = [
                 cursos: [
                     {
                         linkHref: "https://www.edx.org/course/html5-and-css-fundamentals",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "https://w3cx.org/img/5-0-small.png",
                         titleH2: "HTML5 & CSS Fundamentals",
                         titleH3: "W3Cx",
@@ -203,7 +203,7 @@ const dbRutas = [
                     },
                     {
                         linkHref: "https://www.edx.org/course/web-accessibility-introduction",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "https://prod-discovery.edx-cdn.org/media/course/image/8ac6f7ff-0ff9-4894-a5f3-cc34fc5768fa-8357c71f5fa0.small.png",
                         titleH2: "Introduction to Web Accessibility",
                         titleH3: "W3Cx",
@@ -212,7 +212,7 @@ const dbRutas = [
                     },
                     {
                         linkHref: "https://www.edx.org/course/javascript-introduction",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "https://prod-discovery.edx-cdn.org/media/course/image/c50943b5-3375-4d50-9f91-911930551603-5703bb2a02c8.small.png",
                         titleH2: "JavaScript Introduction",
                         titleH3: "W3Cx",
@@ -221,7 +221,7 @@ const dbRutas = [
                     },
                     {
                         linkHref: "https://www.edx.org/course/css-basics",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "https://prod-discovery.edx-cdn.org/media/course/image/32f1ba67-31e7-4b85-aa65-a4687036231c-80139b7286a9.small.png",
                         titleH2: "CSS Basics",
                         titleH3: "W3Cx",
@@ -230,7 +230,7 @@ const dbRutas = [
                     },
                     {
                         linkHref: "https://www.edx.org/course/html5-apps-and-games",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "https://prod-discovery.edx-cdn.org/media/course/image/6d40d803-76af-452b-8609-0dbadbe37fee-1577921cd54a.small.jpg",
                         titleH2: "HTML5 Apps and Games",
                         titleH3: "W3Cx",
@@ -242,7 +242,7 @@ const dbRutas = [
             },
             {
                 linkHref: "https://platzi.com/cursos/programacion-basica-nuevo/",
-                targetType : "_blank",
+                targetType: "_blank",
                 imgSrc: "../public/images/sitios-web/platzi.jpg",
                 titleH2: "Platzi",
                 titleH3: "",
@@ -251,7 +251,7 @@ const dbRutas = [
                 cursos: [
                     {
                         linkHref: "https://platzi.com/cursos/programacion-basica-nuevo/",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "https://static.platzi.com/cdn-cgi/image/width=1024,quality=50,format=auto/media/achievements/badge-piezas-programacion-basica-ede320eb-b1a9-4f1c-8b61-dd0502bbe4d3.png",
                         titleH2: "Nuevo Curso Gratis de Programación Básica",
                         titleH3: "Platzi",
@@ -262,7 +262,7 @@ const dbRutas = [
             },
             {
                 linkHref: "../page/codecademy.html",
-                targetType : "",
+                targetType: "",
                 imgSrc: "../public/images/sitios-web/codecademy.jpg",
                 titleH2: "Codecademy",
                 titleH3: "",
@@ -271,7 +271,7 @@ const dbRutas = [
                 cursos: [
                     {
                         linkHref: "https://www.codecademy.com/learn/learn-html",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "../public/images/app/html.jpg",
                         titleH2: "Learn HTML",
                         titleH3: "Codecademy",
@@ -280,7 +280,7 @@ const dbRutas = [
                     },
                     {
                         linkHref: "https://www.codecademy.com/learn/learn-css",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "../public/images/app/css.jpg",
                         titleH2: "Learn CSS",
                         titleH3: "Codecademy",
@@ -289,7 +289,7 @@ const dbRutas = [
                     },
                     {
                         linkHref: "https://www.codecademy.com/learn/introduction-to-javascript",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "../public/images/app/javascript.jpg",
                         titleH2: "Learn JavaScript",
                         titleH3: "Codecademy",
@@ -297,10 +297,10 @@ const dbRutas = [
                         linkCodeR11: "",
                     },
                 ],
-            }, 
+            },
             {
                 linkHref: "https://egghead.io/courses/the-beginner-s-guide-to-react",
-                targetType : "_blank",
+                targetType: "_blank",
                 imgSrc: "../public/images/sitios-web/egghead-io.jpg",
                 titleH2: "egghead.io",
                 titleH3: "",
@@ -309,7 +309,7 @@ const dbRutas = [
                 curso: [
                     {
                         linkHref: "https://egghead.io/courses/the-beginner-s-guide-to-react",
-                        targetType : "_blank",
+                        targetType: "_blank",
                         imgSrc: "../public/images/sitios-web/egghead-io.jpg",
                         titleH2: "The Beginner's Guide to React",
                         titleH3: "egghead.io",
@@ -320,7 +320,7 @@ const dbRutas = [
             },
             {
                 linkHref: "https://www.edx.org/course/introduction-computer-science-harvardx-cs50x",
-                targetType : "_blank",
+                targetType: "_blank",
                 imgSrc: "../public/images/sitios-web/cs50-harvard.jpg",
                 titleH2: "CS50 Harvard.Edu",
                 titleH3: "",
@@ -329,7 +329,7 @@ const dbRutas = [
                 curso: [
                     {
                         linkHref: "",
-                        targetType : "",
+                        targetType: "",
                         imgSrc: "",
                         titleH2: "Introducción a la informática de CS50",
                         titleH3: "CS50 Harvard.edu",
@@ -345,7 +345,7 @@ const dbRutas = [
         id: "2",
         category: "documentacion-oficial",
         linkHref: "../page/documentacion.html",
-        targetType : "",
+        targetType: "",
         imgSrc: "../public/images/documentacionOficial.png",
         titleH2: "Documentación Oficial",
         titleH3: "",
@@ -353,7 +353,7 @@ const dbRutas = [
         group: [
             {
                 linkHref: "https://html.spec.whatwg.org/multipage/",
-                targetType : "_blank",
+                targetType: "_blank",
                 imgSrc: "../public/images/app/html.jpg",
                 titleH2: "HTML",
                 titleH3: "WHATWG",
@@ -363,7 +363,7 @@ const dbRutas = [
             },
             {
                 linkHref: "https://developer.mozilla.org/en-US/docs/Web/HTML",
-                targetType : "_blank",
+                targetType: "_blank",
                 imgSrc: "../public/images/app/html.jpg",
                 titleH2: "HTML",
                 titleH3: "MDN Web Docs",
@@ -373,7 +373,7 @@ const dbRutas = [
             },
             {
                 linkHref: "https://www.w3.org/TR/CSS/",
-                targetType : "_blank",
+                targetType: "_blank",
                 imgSrc: "../public/images/app/css.jpg",
                 titleH2: "CSS",
                 titleH3: "W3.org",
@@ -383,7 +383,7 @@ const dbRutas = [
             },
             {
                 linkHref: "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference",
-                targetType : "_blank",
+                targetType: "_blank",
                 imgSrc: "../public/images/app/css.jpg",
                 titleH2: "CSS",
                 titleH3: "MDN Web Docs",
@@ -397,7 +397,7 @@ const dbRutas = [
         id: "3",
         category: "libros",
         linkHref: "../page/libros.html",
-        targetType : "",
+        targetType: "",
         imgSrc: "../public/images/librosWebDeveloper.png",
         titleH2: "Libros y Guias",
         titleH3: "",
@@ -408,7 +408,7 @@ const dbRutas = [
         id: "4",
         category: "herramientas",
         linkHref: "../page/herramientas.html",
-        targetType : "",
+        targetType: "",
         imgSrc: "../public/images/herramientasWebDeveloper.png",
         titleH2: "Herramientas",
         titleH3: "",
@@ -416,7 +416,7 @@ const dbRutas = [
         group: [
             {
                 linkHref: "https://code.visualstudio.com/",
-                targetType : "_blank",
+                targetType: "_blank",
                 imgSrc: "../public/images/app/visual-studio-code.jpg",
                 titleH2: "Visual Studio Code",
                 titleH3: "Editor de Código",
@@ -425,20 +425,29 @@ const dbRutas = [
             },
             {
                 linkHref: "https://nodejs.org/es/",
-                targetType : "_blank",
+                targetType: "_blank",
                 imgSrc: "../public/images/app/nodejs.jpg",
                 titleH2: "Node.JS",
                 titleH3: "Entorno de ejecución para JavaScript",
                 contents: "",
                 linkCodeR11: "",
             },
+            {
+                linkHref: "https://fonts.google.com/",
+                targetType: "_blank",
+                imgSrc: "../public/images/app/google-fonts.jpg",
+                titleH2: "Google Fonts",
+                titleH3: "Biblioteca de 1442 familias de fuentes de código abierto y API",
+                contents: "Google Fonts es una biblioteca de 1442 familias de fuentes de código abierto y API para un uso conveniente a través de CSS y Android.",
+                linkCodeR11: "",
+            },
         ]
     },
     {
         id: "5",
-        category: "Sand-Box",
-        linkHref: "sand-box.html",
-        targetType : "",
+        category: "sand-box",
+        linkHref: "../page/sand-box.html",
+        targetType: "",
         imgSrc: "../public/images/sandBoxWebDeveloper.png",
         titleH2: "Sand-Box: Prueba, Aprende y Desarrolla",
         titleH3: "",
@@ -447,30 +456,68 @@ const dbRutas = [
         group: [
             {
                 linkHref: "https://www.codewars.com/",
-                targetType : "",
-                imgSrc: "https://assets-global.website-files.com/62462834c60df92621c6b5be/62462c29f3165b55ea6255ea_light-text-logo-vertical.svg",
-                titleH2: "Plataforma para Entrenar y Mejorar tus Habilidades de Codificación",
-                titleH3: "CodeWars",
-                contents: "Codewars es una plataforma que lo ayuda a aprender, entrenar y mejorar sus habilidades de codificación al resolver tareas de programación de muchos tipos y niveles de dificultad. Tú eliges cómo te gustaría aprender. ¿Quieres asumir desafíos cada vez más difíciles? Quizás prefieras entrenar a través de la repetición y mejorando tus soluciones. Después de resolver una tarea, compare su respuesta con la de otros usuarios y aprenda de ellos o ayude a los usuarios menos experimentados respondiendo a sus preguntas.",
-            }
+                targetType: "_blank",
+                imgSrc: "../public/images/app/codewars.jpg",
+                titleH2: "CodeWars",
+                titleH3: "Entrena y mejora tus habilidades de codificación",
+                contents: "Aprende, entrena y mejora tus habilidades de codificación al resolver tareas de programación de muchos tipos y niveles de dificultad.",
+                linkCodeR11: "",
+            },
+            {
+                linkHref: "https://www.jshero.net/en/home.html",
+                targetType: "_blank",
+                imgSrc: "../public/images/app/js-hero.jpg",
+                titleH2: "JavaScript Hero",
+                titleH3: "Aprende a codificar con JS Hero con ejercicios interactivos.",
+                contents: "Cuenta con un tutorial, prácticas y un patio de juego para experimentar con el código y mejorar nivel de programación en JavaScritp.",
+                linkCodeR11: "",
+            },
+            {
+                linkHref: "https://edabit.com/challenges",
+                targetType: "_blank",
+                imgSrc: "../public/images/app/edabit.jpg",
+                titleH2: "Edabit",
+                titleH3: "Práctica tu código y resuelve los retos",
+                contents: "Aprende JavaScript y enfréntate a desafíos interactivos. Desarrolla tus habilidades y mejora tu rendimiento como programador.",
+                linkCodeR11: "",
+            },
         ]
     },
     {
         id: "6",
-        category: "Boot-Camp",
-        linkHref: "",
-        targetType : "",
+        category: "boot-camp",
+        linkHref: "../page/boot-camp.html",
+        targetType: "",
         imgSrc: "../public/images/bootCamp.png",
         titleH2: "Coding Bootcamp",
         titleH3: "",
         contents: "",
-        group: []
+        group: [
+            {
+                linkHref: "https://fullstackopen.com/es/",
+                targetType: "_blank",
+                imgSrc: "../public/images/app/Full-Stack-Open.jpg",
+                titleH2: "Full Stack Open",
+                titleH3: "Profundización en el desarrollo web moderno",
+                contents: "Este curso le presentará el desarrollo web moderno basado en JavaScript. Aprende a crear aplicaciones con ReactJS que usan REST API creadas con Node.js",
+                linkCodeR11: "",
+            },
+            {
+                linkHref: "https://www.youtube.com/playlist?list=PLV8x_i1fqBw0Kn_fBIZTa3wS_VZAqddX7",
+                targetType: "_blank",
+                imgSrc: "../public/images/app/midudev-Bootcamp-fullStack.jpg",
+                titleH2: "Midudev Bootcamp FullStack",
+                titleH3: "FullStack JavaScript Bootcamp totalmente gratis y desde cero.",
+                contents: "55 Videos del canal de Midudev para el aprendizaje FullStack JavaScript.",
+                linkCodeR11: "",
+            },
+        ]
     },
     {
         id: "7",
-        category: "Mentores-Canal-Youtube",
+        category: "mentores-canal-youtube",
         linkHref: "https://www.w3schools.com/html/default.asp",
-        targetType : "",
+        targetType: "",
         imgSrc: "../public/images/mentoresWebDeveloper.png",
         titleH2: "Guía de Expertos en Youtube",
         titleH3: "",
@@ -481,7 +528,7 @@ const dbRutas = [
         id: "8",
         category: "videos-tutoriales",
         linkHref: "../page/videos.html",
-        targetType : "",
+        targetType: "",
         imgSrc: "../public/images/video-tutoriales.png",
         titleH2: "Tutoriales y Cursos en Youtube",
         titleH3: "",
@@ -489,7 +536,7 @@ const dbRutas = [
         group: [
             {
                 linkHref: "../page/videos-html.html",
-                targetType : "",
+                targetType: "",
                 imgSrc: "../public/images/app/html.jpg",
                 titleH2: "HTML",
                 titleH3: "Video Tutoriales",
@@ -499,7 +546,7 @@ const dbRutas = [
             },
             {
                 linkHref: "../page/videos-css.html",
-                targetType : "",
+                targetType: "",
                 imgSrc: "../public/images/app/css.jpg",
                 titleH2: "CSS",
                 titleH3: "Video Tutoriales",
@@ -509,7 +556,7 @@ const dbRutas = [
             },
             {
                 linkHref: "../page/videos-javascript.html",
-                targetType : "",
+                targetType: "",
                 imgSrc: "../public/images/app/javascript.jpg",
                 titleH2: "JavaScript",
                 titleH3: "Video Tutoriales",
@@ -523,7 +570,7 @@ const dbRutas = [
         id: "9",
         category: "hospedaje-web",
         linkHref: "",
-        targetType : "",
+        targetType: "",
         imgSrc: "../public/images/webHosting.png",
         titleH2: "Dominios y Hospedajes Web",
         titleH3: "",
@@ -535,7 +582,7 @@ const dbRutas = [
         id: "10",
         category: "Portafolio",
         linkHref: "",
-        targetType : "",
+        targetType: "",
         imgSrc: "../public/images/portafolio-code-r11.png",
         titleH2: "Portafolio",
         titleH3: "",
@@ -547,7 +594,7 @@ const dbRutas = [
         id: "11",
         category: "Trabajos-Remotos",
         linkHref: "trabajos-remotos.html",
-        targetType : "",
+        targetType: "",
         imgSrc: "../public/images/TrabajosRemotos.png",
         titleH2: "Proyectos y Trabajos Remotos",
         titleH3: "",
@@ -555,7 +602,7 @@ const dbRutas = [
         group: [
             {
                 linkHref: "trabajos-remotos.html",
-                targetType : "",
+                targetType: "",
                 imgSrc: "https://yt3.ggpht.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s900-c-k-c0x00ffffff-no-rj",
                 titleH2: "ARC()",
                 titleH3: "Inglés",
@@ -563,7 +610,7 @@ const dbRutas = [
             },
             {
                 linkHref: "trabajos-remotos.html",
-                targetType : "",
+                targetType: "",
                 imgSrc: "https://miro.medium.com/max/1400/1*aTYOTFS4Vkr-nwHNML3GvQ.jpeg",
                 titleH2: "Otra",
                 titleH3: "Inglés",
@@ -575,7 +622,7 @@ const dbRutas = [
         id: "12",
         category: "Code-R11",
         linkHref: "../page/proyecto-code-r11.html",
-        targetType : "",
+        targetType: "",
         imgSrc: "../public/images/coder11.jpg",
         titleH2: "Ruta de Aprendizaje y Plan de Estudio Code R11",
         titleH3: "",
