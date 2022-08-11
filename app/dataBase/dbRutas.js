@@ -406,8 +406,8 @@ const dbRutas = [
     },
     {
         id: "4",
-        category: "Herramientas",
-        linkHref: "",
+        category: "herramientas",
+        linkHref: "../page/herramientas.html",
         targetType : "",
         imgSrc: "../public/images/herramientasWebDeveloper.png",
         titleH2: "Herramientas",
@@ -415,12 +415,22 @@ const dbRutas = [
         contents: "",
         group: [
             {
-                linkHref: "",
-                targetType : "",
-                imgSrc: "",
+                linkHref: "https://code.visualstudio.com/",
+                targetType : "_blank",
+                imgSrc: "../public/images/app/visual-studio-code.jpg",
                 titleH2: "Visual Studio Code",
-                titleH3: "",
+                titleH3: "Editor de Código",
                 contents: "",
+                linkCodeR11: "",
+            },
+            {
+                linkHref: "https://nodejs.org/es/",
+                targetType : "_blank",
+                imgSrc: "../public/images/app/nodejs.jpg",
+                titleH2: "Node.JS",
+                titleH3: "Entorno de ejecución para JavaScript",
+                contents: "",
+                linkCodeR11: "",
             },
         ]
     },
