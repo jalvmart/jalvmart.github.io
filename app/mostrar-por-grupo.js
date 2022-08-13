@@ -20,12 +20,6 @@ const result = dbRutas.filter(x => x.category == filtrar);
 
 /* categoria principal: Sitios Web */
  
-/* let sitiosWeb = document.getElementsByClassName("sitios-web")
-if (!sitiosWeb.length == 0){
-    let doc = document.getElementById("card-container")
-    doc.innerHTML = `${result[0].group.map(createCardsG).join("")}`     
-} 
- */
 let idCategoria = document.querySelector("body")
 let classCategoria = document.querySelector(".cards").classList[1]
 if (idCategoria.id == classCategoria) {

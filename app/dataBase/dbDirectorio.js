@@ -5,10 +5,16 @@ categorias:
 - Aprende-Desarrollo-Web
 - Ideas-para-Proyectos
 - Recursos-para-Aprender-JavaScript
-
+- extensiones-vs-code
 */ 
 
 const dbDirectorio = [
+    {
+        enlace : "https://platzi.com/blog/10-plugins-esenciales-para-vscode/",
+        titulo : "10 Plugins o extensiones esenciales de VSCode para Frontends",
+        descripcion : "10 complementos que utilizo en mi día a día como desarrollador Frontend",
+        categoria : "extensiones-vs-code",
+    },
     {
         enlace : "https://jacekjeznach.com/",
         titulo : "14 Best Web Developer Portfolios To Get Inspiration",
