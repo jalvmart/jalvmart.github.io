@@ -696,6 +696,16 @@ const dbRutas = [
                 cursos: [],
             },
             {
+                linkHref: "https://vercel.com/templates/next.js/portfolio-starter-kit",
+                targetType: "_blank",
+                imgSrc: "../public/images/app/vercel-portafolio.jpg",
+                titleH2: "Vercel",
+                titleH3: "Plantilla para tu Portafolio",
+                contents: "Este portafolio está construido con Next.js y una biblioteca llamada Nextra. Te permite escribir Markdown y concentrarte en el contenido de tu portafolio.",
+                linkCodeR11: "",
+                cursos: [],
+            },
+            {
                 linkHref: "../page/videos-portafolios.html",
                 targetType: "",
                 imgSrc: "../public/images/app/videos-portafolio.jpg",

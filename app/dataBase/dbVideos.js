@@ -45,6 +45,15 @@ const listaVideos = [
         etiqueta: "Tutorial",
     },
     {
+        idVideo: "RqQ1d1qEWlE",
+        imagen: "hq720",
+        titulo: "Curso Javascript para Principiantes",
+        canal: "Fazt",
+        texto: "Este curso es una introducción práctica a Javascript, conoceremos su sintaxis básicas y aprenderás los fundamentos del Lenguaje.",
+        categoria: "JavaScript",
+        etiqueta: "",
+    },
+    {
         idVideo: "ExsGyZDBlJQ",
         imagen: "hq720",
         titulo: "La ruta para aprender desarrollo web profesional",
