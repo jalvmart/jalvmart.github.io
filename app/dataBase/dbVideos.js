@@ -10,17 +10,7 @@ const listaVideos = [
         categoria: "",
         etiqueta: "",
     }, */
-    {
-        idVideo: "wZniZEbPAzk",
-        imagen: "hq720",
-        titulo: "Aprende CSS ahora! curso completo GRATIS desde cero",
-        canal: "HolaMundo",
-        texto: "Aprende CSS",
-        imgAncho: "",
-        imgAlto: "",
-        categoria: "CSS",
-        etiqueta: "",
-    },
+    
 
     {
         idVideo: "MJkdaVFHrto",
@@ -44,24 +34,7 @@ const listaVideos = [
         categoria: "HTML",
         etiqueta: "Tutorial",
     },
-    {
-        idVideo: "RqQ1d1qEWlE",
-        imagen: "hq720",
-        titulo: "Curso Javascript para Principiantes",
-        canal: "Fazt",
-        texto: "Este curso es una introducción práctica a Javascript, conoceremos su sintaxis básicas y aprenderás los fundamentos del Lenguaje.",
-        categoria: "JavaScript",
-        etiqueta: "",
-    },
-    {
-        idVideo: "ExsGyZDBlJQ",
-        imagen: "hq720",
-        titulo: "La ruta para aprender desarrollo web profesional",
-        canal: "Platzi",
-        texto: "Desarrolla tu propia página web o trabaja como web developer creando con HTML5, CSS3 y JavaScript.",
-        categoria: "JavaScript",
-        etiqueta: "",
-    },
+    
     {
         idVideo: "bp_IXqYRgYw",
         imagen: "hq720_2",
@@ -87,6 +60,26 @@ const listaVideos = [
         canal: "Platzi",
         texto: "Conoce las habilidades que te darán un mejor salario o un mejor empleo.",
         categoria: "Trabajos",
+        etiqueta: "",
+    },
+    {
+        idVideo: "wFu8r9DZNZw",
+        imagen: "hq720",
+        titulo: "Trabaja como programador en el extranjero con @HolaMundo 🔴 HackerLIVE#15",
+        canal: "MoureDev by Brais Moure",
+        texto: "¿Cómo conseguir trabajo de programador en el extranjero? Nicolás Schürmann dejó Chile para emigrar a Nueva Zelanda tras conseguir trabajo de ingeniero de software en un país completamente nuevo.",
+        categoria: "Trabajos",
+        etiqueta: "",
+    },
+    {
+        idVideo: "wZniZEbPAzk",
+        imagen: "hq720",
+        titulo: "Aprende CSS ahora! curso completo GRATIS desde cero",
+        canal: "HolaMundo",
+        texto: "Aprende CSS",
+        imgAncho: "",
+        imgAlto: "",
+        categoria: "CSS",
         etiqueta: "",
     },
     {
@@ -120,44 +113,6 @@ const listaVideos = [
         imgAncho: "",
         imgAlto: "",
         categoria: "CSS",
-        etiqueta: "",
-    },
-    {
-        idVideo: "U329pKWKqWw",
-        imagen: "hq720",
-        titulo: "Consejo: Aprende a Documentar tu Código Javascript | JSDoc",
-        canal: "FalconMasters",
-        texto: "JSDoc, una herramienta para generar documentación muy fácilmente.",
-        imgAncho: "",
-        imgAlto: "",
-        categoria: "JavaScript",
-        etiqueta: "",
-    },
-    {
-        idVideo: "GUTt0qKUDyU",
-        imagen: "hq720",
-        titulo: "CONSEJO: Estas usando mal los Event Listeners en Javascript !!!",
-        canal: "FalconMasters",
-        texto: "Aprender javascript, para optimizar mas su código mediante delegación de eventos..",
-        imgAncho: "",
-        imgAlto: "",
-        categoria: "JavaScript",
-        etiqueta: "",
-    },
-    {
-        idVideo: "aacwoizx1nc",
-        imagen: "hq720",
-        titulo: "Este es el MEJOR bootcamp de habla hispana (para aprender a programar)",
-        canal: "Programador X",
-        texto: '<a href="https://www.academia-x.com" target="_blank">bootcamp"</a> Contiene todos los conocimientos de programación web que tienen Ingenieros de Software en Google, Amazon, Meta, y Apple. ',
-        imgAncho: "",
-        imgAlto: "",
-        fecha: {
-            dia: "27",
-            mes: "07",
-            axo: "2022",
-        },
-        categoria: "Bootcamp",
         etiqueta: "",
     },
     {
@@ -195,16 +150,67 @@ const listaVideos = [
         categoria: "CSS",
         etiqueta: "",
     },
-
     {
-        idVideo: "HtunPQtr-Xw",
+        idVideo: "RqQ1d1qEWlE",
         imagen: "hq720",
-        titulo: "5 HTML, CSS & JS Mini Projects - Scroll Animation, Rotating Navigation, Drag Events, etc",
-        canal: "Traversy Media",
-        texto: "5 projects from my 50 Projects In 50 Days course on Udemy. These projects are meant to sharpen your CSS skills and help you work with the DOM using JavaScript.",
+        titulo: "Curso Javascript para Principiantes",
+        canal: "Fazt",
+        texto: "Este curso es una introducción práctica a Javascript, conoceremos su sintaxis básicas y aprenderás los fundamentos del Lenguaje.",
+        categoria: "JavaScript",
+        etiqueta: "",
+    },
+    {
+        idVideo: "lVqHiTCIRQg",
+        imagen: "hq720",
+        titulo: "Javascript para Aprender React",
+        canal: "Fazt",
+        texto: "Este es un curso de conceptos fundamentales de Javascript que debes conocer para poder aprender React, la biblioteca de Javascript para crear interfaces de Usuario en la web.",
         imgAncho: "",
         imgAlto: "",
-        categoria: "Proyectos",
+        categoria: "JavaScript",
+        etiqueta: "",
+    },
+    {
+        idVideo: "ExsGyZDBlJQ",
+        imagen: "hq720",
+        titulo: "La ruta para aprender desarrollo web profesional",
+        canal: "Platzi",
+        texto: "Desarrolla tu propia página web o trabaja como web developer creando con HTML5, CSS3 y JavaScript.",
+        categoria: "JavaScript",
+        etiqueta: "",
+    },
+    {
+        idVideo: "U329pKWKqWw",
+        imagen: "hq720",
+        titulo: "Consejo: Aprende a Documentar tu Código Javascript | JSDoc",
+        canal: "FalconMasters",
+        texto: "JSDoc, una herramienta para generar documentación muy fácilmente.",
+        imgAncho: "",
+        imgAlto: "",
+        categoria: "JavaScript",
+        etiqueta: "",
+    },
+    {
+        idVideo: "GUTt0qKUDyU",
+        imagen: "hq720",
+        titulo: "CONSEJO: Estas usando mal los Event Listeners en Javascript !!!",
+        canal: "FalconMasters",
+        texto: "Aprender javascript, para optimizar mas su código mediante delegación de eventos..",
+        imgAncho: "",
+        imgAlto: "",
+        categoria: "JavaScript",
+        etiqueta: "",
+    },
+    /*react*/
+    {
+        idVideo: "rLoWMU4L_qE",
+        imagen: "hq720",
+        titulo: "Curso de Reactjs desde Cero para principiantes 2022",
+        canal: "Fazt",
+        texto: " React es una biblioteca de Javascript para crear interfaces web de usuario, tipicamente se usa para crear aplicaciones web frontend.",
+        imgAncho: "",
+        imgAlto: "",
+        categoria: "React",
         etiqueta: "",
     },
     {
@@ -218,6 +224,36 @@ const listaVideos = [
         categoria: "React",
         etiqueta: "",
     },
+    
+    {
+        idVideo: "aacwoizx1nc",
+        imagen: "hq720",
+        titulo: "Este es el MEJOR bootcamp de habla hispana (para aprender a programar)",
+        canal: "Programador X",
+        texto: '<a href="https://www.academia-x.com" target="_blank">bootcamp"</a> Contiene todos los conocimientos de programación web que tienen Ingenieros de Software en Google, Amazon, Meta, y Apple. ',
+        imgAncho: "",
+        imgAlto: "",
+        fecha: {
+            dia: "27",
+            mes: "07",
+            axo: "2022",
+        },
+        categoria: "Bootcamp",
+        etiqueta: "",
+    },
+    
+    {
+        idVideo: "HtunPQtr-Xw",
+        imagen: "hq720",
+        titulo: "5 HTML, CSS & JS Mini Projects - Scroll Animation, Rotating Navigation, Drag Events, etc",
+        canal: "Traversy Media",
+        texto: "5 projects from my 50 Projects In 50 Days course on Udemy. These projects are meant to sharpen your CSS skills and help you work with the DOM using JavaScript.",
+        imgAncho: "",
+        imgAlto: "",
+        categoria: "Proyectos",
+        etiqueta: "",
+    },    
+    
     {
         idVideo: "X-bPSOCFM5U",
         imagen: "hq720",
@@ -226,7 +262,7 @@ const listaVideos = [
         texto: "Cómo utilizar la UX (User eXperience) y UI (User Interface) para incrementar tu valor como desarrollador web.",
         imgAncho: "",
         imgAlto: "",
-        categoria: "portafolio",
+        categoria: "Portafolio",
         etiqueta: "",
     },
     {
@@ -237,7 +273,7 @@ const listaVideos = [
         texto: "Construye un portafolio de desarrollo",
         imgAncho: "",
         imgAlto: "",
-        categoria: "portafolio",
+        categoria: "Portafolio",
         etiqueta: "",
     },
     {
@@ -248,7 +284,7 @@ const listaVideos = [
         texto: "Revisamos casi 50 portfolios y proyectos de la comunidad en vivo, también dimos difusión a publicaciones de LinkedIn para dar visibilidad a quienes buscan su primer trabajo!",
         imgAncho: "",
         imgAlto: "",
-        categoria: "portafolio",
+        categoria: "Portafolio",
         etiqueta: "",
     },
     {
@@ -259,7 +295,7 @@ const listaVideos = [
         texto: "Revisamos portfolios y proyectos de la comunidad en vivo.",
         imgAncho: "",
         imgAlto: "",
-        categoria: "portafolio",
+        categoria: "Portafolio",
         etiqueta: "",
     },
 
@@ -279,16 +315,25 @@ function crearLista(registro) {
     <div class="textos">
         <h2>${registro.titulo}</h2>
         <h3>${registro.canal}</h3>
-        <p style="display:none">${registro.texto}</p> 
+        <p style="display:none">${registro.texto}</p>        
+        <h3 class="todos">${document.getElementById("Todos") ? registro.categoria : ''}</h3>
+        	
     </div>
 
 </div>
     `
 }
 
-let filtrar = document.getElementsByTagName("body")[0].id
-const result = listaVideos.filter(x => x.categoria == filtrar);
 
-const videoItem = document.getElementById("videoItem")
-videoItem.innerHTML += `${result.map(crearLista).join("")}`
+const filtrar = document.getElementsByTagName("body")[0].id
+
+if (filtrar == "Todos"){
+    const videoItem = document.getElementById("videoItem")
+    videoItem.innerHTML += `${listaVideos.map(crearLista).join("")}`
+    
+} else {
+    const result = listaVideos.filter(x => x.categoria == filtrar);
+    const videoItem = document.getElementById("videoItem")
+    videoItem.innerHTML += `${result.map(crearLista).join("")}`
+}
 

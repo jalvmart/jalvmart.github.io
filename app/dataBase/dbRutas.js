@@ -439,14 +439,14 @@ const dbRutas = [
                         contents: "El paquete de idioma español proporciona una experiencia de UI localizada para VS Code.",
                         linkCodeR11: "",
                     },
-                    /* {
+                    {
                         linkHref: "https://marketplace.visualstudio.com/items?itemName=EliverLara.andromeda",
                         imgSrc: "https://eliverlara.gallerycdn.vsassets.io/extensions/eliverlara/andromeda/1.7.1/1652738880846/Microsoft.VisualStudio.Services.Icons.Default",
                         titleH2: "Andromeda",
                         titleH3: "Eliver Lara | Tema oscuro con sabor a universo.",
                         contents: "¡La combinación de colores es simplemente increíble!",
                         linkCodeR11: "",
-                    }, */
+                    },
                     {
                         linkHref: "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer",
                         imgSrc: "https://ritwickdey.gallerycdn.vsassets.io/extensions/ritwickdey/liveserver/5.7.5/1646738284779/Microsoft.VisualStudio.Services.Icons.Default",
@@ -700,6 +700,26 @@ const dbRutas = [
                 titleH2: "JavaScript",
                 titleH3: "Video Tutoriales",
                 contents: "Aprende JavaScript",
+                linkCodeR11: "",
+                cursos: [],
+            },
+            {
+                linkHref: "../page/videos-react.html",
+                targetType: "",
+                imgSrc: "../public/images/app/react.jpg",
+                titleH2: "React",
+                titleH3: "Video Tutoriales",
+                contents: "Aprende React",
+                linkCodeR11: "",
+                cursos: [],
+            },
+            {
+                linkHref: "../page/videos-todos.html",
+                targetType: "",
+                imgSrc: "../public/images/app/videos-todos.jpg",
+                titleH2: "Todos los videos",
+                titleH3: "Recopilatorio",
+                contents: "Recopilatorio",
                 linkCodeR11: "",
                 cursos: [],
             },
