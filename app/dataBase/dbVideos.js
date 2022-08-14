@@ -201,6 +201,28 @@ const listaVideos = [
         categoria: "JavaScript",
         etiqueta: "",
     },
+    {
+        idVideo: "DG4obitDvUA",
+        imagen: "hq720",
+        titulo: "JavaScript Template Literals: JSON to HTML",
+        canal: "Brad Schiff",
+        texto: "Las plantillas literales son cadenas literales que habilitan el uso de expresiones incrustadas. Con ellas, es posible utilizar cadenas de caracteres de más de una línea, y funcionalidades de interpolación de cadenas de caracteres.",
+        imgAncho: "",
+        imgAlto: "",
+        categoria: "JavaScript",
+        etiqueta: "",
+    },
+    {
+        idVideo: "DgunJ2jMZwM",
+        imagen: "hq720",
+        titulo: "Javascript - Fetch y Filtrado de Datos (Ejemplo práctico usando Replit)",
+        canal: "Fazt Code",
+        texto: "crear una aplicacion frontend basada en HTML, CSS y Javasscript puro, que nos permita solicitar 1000 datos de usuarios y poder filtrarlos usando el metodo filter de los arrays de Javascript.",
+        imgAncho: "",
+        imgAlto: "",
+        categoria: "JavaScript",
+        etiqueta: "",
+    },
     /*react*/
     {
         idVideo: "rLoWMU4L_qE",

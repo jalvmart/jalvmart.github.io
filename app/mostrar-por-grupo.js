@@ -22,18 +22,16 @@ const result = dbRutas.filter(x => x.category == filtrar);
  
 let idCategoria = document.querySelector("body")
 let classCategoria = document.querySelector(".cards").classList[1]
+let doc = document.getElementById("card-container")
 if (idCategoria.id == classCategoria) {
-    let doc = document.getElementById("card-container")
+    
     doc.innerHTML = `${result[0].group.map(createCardsG).join("")}` 
-} 
-
-
-/* Sub-categorías: */
-let cursos = document.querySelector(".cards").classList[1]
-if (!cursos.length == 0){
-    let doc = document.getElementById("card-container")
+} else {    
     let cod = document.querySelector(".cards").classList[2]
-    doc.innerHTML = `${result[0].group[cod].cursos.map(createCardsG).join("")}`     
+    doc.innerHTML = `${result[0].group[cod].cursos.map(createCardsG).join("")}` 
 }
+
+
+
 
 

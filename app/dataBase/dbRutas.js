@@ -306,7 +306,7 @@ const dbRutas = [
                 titleH3: "",
                 contents: "",
                 linkCodeR11: "",
-                curso: [
+                cursos: [
                     {
                         linkHref: "https://egghead.io/courses/the-beginner-s-guide-to-react",
                         targetType: "_blank",
@@ -326,7 +326,7 @@ const dbRutas = [
                 titleH3: "",
                 contents: "",
                 linkCodeR11: "https://cs50.harvard.edu/x/2022/",
-                curso: [
+                cursos: [
                     {
                         linkHref: "",
                         targetType: "",
@@ -336,6 +336,53 @@ const dbRutas = [
                         contents: "Los temas incluyen abstracción, algoritmos, estructuras de datos, encapsulación, administración de recursos, seguridad, ingeniería de software y desarrollo web. Los lenguajes incluyen C, Python, SQL y JavaScript, además de CSS y HTML.",
                         linkCodeR11: "",
                     }
+                ],
+            },
+            {
+                linkHref: "../page/web-dev.html",
+                targetType: "",
+                imgSrc: "../public/images/sitios-web/web-dev-google-developers.jpg",
+                titleH2: "Web Dev",
+                titleH3: "Google Developers",
+                contents: "",
+                linkCodeR11: "",
+                cursos: [
+                    {
+                        linkHref: "https://web.dev/learn/forms/",
+                        targetType: "_blank",
+                        imgSrc: "../public/images/app/wev-dev-formularios.jpg",
+                        titleH2: "Aprender formularios",
+                        titleH3: "Web Dev | Google Developers",
+                        contents: "Un curso sobre formularios HTML para ayudarlo a mejorar su experiencia como desarrollador web.",
+                        linkCodeR11: "",
+                    },
+                    {
+                        linkHref: "https://web.dev/learn/css/",
+                        targetType: "_blank",
+                        imgSrc: "../public/images/app/wev-dev-fundamentos-css.jpg",
+                        titleH2: "Aprender CSS",
+                        titleH3: "Web Dev | Google Developers",
+                        contents: "Un curso permanente de CSS y un modelo para mejorar sus conocimientos sobre el diseño de páginas web.",
+                        linkCodeR11: "",
+                    },                    
+                    {
+                        linkHref: "https://web.dev/learn/design/",
+                        targetType: "_blank",
+                        imgSrc: "../public/images/app/wev-dev-responsive-design.jpg",
+                        titleH2: "Aprende Responsive Design",
+                        titleH3: "Web Dev | Google Developers",
+                        contents: "Un curso que explora todos los aspectos del diseño responsive. Aprenda a crear sitios que se vean geniales y funcionen bien para todos.",
+                        linkCodeR11: "",
+                    },
+                    {
+                        linkHref: "https://web.dev/learn/pwa/",
+                        targetType: "_blank",
+                        imgSrc: "../public/images/app/wev-dev-progressive-web-apps.jpg",
+                        titleH2: "Aprende PWA (Progressive Web Apps)",
+                        titleH3: "Web Dev | Google Developers",
+                        contents: "Un curso que analiza todos los aspectos del desarrollo moderno de aplicaciones web progresivas.",
+                        linkCodeR11: "",
+                    },
                 ],
             },
 
