@@ -23,14 +23,20 @@ const result = dbRutas.filter(x => x.category == filtrar);
 let idCategoria = document.querySelector("body")
 let classCategoria = document.querySelector(".cards").classList[1]
 let doc = document.getElementById("card-container")
-if (idCategoria.id == classCategoria) {
-    
+
+
+if (idCategoria.id == classCategoria) {    
     doc.innerHTML = `${result[0].group.map(createCardsG).join("")}` 
-} else {    
+} else if(doc){    
     let cod = document.querySelector(".cards").classList[2]
     doc.innerHTML = `${result[0].group[cod].cursos.map(createCardsG).join("")}` 
 }
 
+/*Solo para la página herramientas.html*/ 
+let docIngles = document.getElementById("card-container-ingles")
+if (docIngles){
+    docIngles.innerHTML = `${result[0].ingles.map(createCardsG).join("")}`
+}
 
 
 

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos para el Aprendizaje del Inglés</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/crearVideos.css">
+</head>
+
+<body id="Todos" class="videos">    
+    <div id="bloque0" class="bloque0"></div>    
+    <header id="menuAppHeader" class="header"></header>     
+    
+    <main>
+        <h1>Todos los videos</h1>
+        <a href="../page/herramientas.html" class="migas">>>Regresar a Herramientas</a>
+        <div id="videoItem" class="contenedor-videos"></div>
+    </main>
+    
+    <footer id="footer-section1"></footer>
+
+    <div id="contenedorVideo" style="display:none">
+        <iframe id="mostrarVideo" src="" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <button id="botonCerrar" onclick="botonCerrar()">X</button>       
+    </div>
+
+    <script src="../app/menu.js"></script>
+    <script src="../app/dataBase/dbVideos-ingles.js"></script>
+    <script src="../app/script-videos.js"></script>
+
+</body>
+
+</html>

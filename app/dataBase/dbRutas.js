@@ -460,6 +460,35 @@ const dbRutas = [
         titleH2: "Herramientas",
         titleH3: "",
         contents: "",
+        ingles : [
+            {
+                linkHref: "../page/ingles-cursos.html",
+                targetType: "",
+                imgSrc: "../public/images/app/ingles-app.jpg",
+                titleH2: "Plataformas y APP para aprender Inglés",
+                titleH3: "",
+                contents: "",
+                linkCodeR11: "",
+            },
+            {
+                linkHref: "../page/ingles-libros.html",
+                targetType: "",
+                imgSrc: "../public/images/app/ingles-libros.jpg",
+                titleH2: "Libros y Guías para aprender Inglés",
+                titleH3: "",
+                contents: "",
+                linkCodeR11: "",
+            },
+            {
+                linkHref: "../page/ingles-videos.html",
+                targetType: "",
+                imgSrc: "../public/images/app/ingles-videos.jpg",
+                titleH2: "Videos sobre el Aprendizaje del Inglés",
+                titleH3: "",
+                contents: "",
+                linkCodeR11: "",
+            },
+        ],
         group: [
             {
                 linkHref: "../page/visual-studio-code.html",

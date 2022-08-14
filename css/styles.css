@@ -190,6 +190,13 @@ ul b {
     width: 50%;
 }
 
+.relleno {
+    padding: 20px;
+}
+
+hr.dividir-con-margen {
+    margin: 30px auto;
+}
 nav ul {
     list-style-type: none;
     display: flex;
