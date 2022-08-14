@@ -72,3 +72,17 @@ const dbDirectorio = [
     },
 
 ]
+
+function crearDirectorio(registro){
+    return `
+        <h2><a href='${registro.enlace}' target='_blank'>${registro.titulo}</a></h2>
+        <p><strong>${registro.categoria}</strong> | ${registro.descripcion}</p>
+    `
+}
+
+const idDirectorio = document.getElementById("directorio")
+
+idDirectorio.innerHTML = `${dbDirectorio.map(crearDirectorio).join("")}`
+
+
+

@@ -585,6 +585,15 @@ const dbRutas = [
         notas: "Prácticas y ejercicios para probar, aprender y desarrolla tu lógica de Programación",
         group: [
             {
+                linkHref: "https://replit.com/",
+                targetType: "_blank",
+                imgSrc: "../public/images/app/replit.jpg",
+                titleH2: "Replit",
+                titleH3: "Programar, crear y aprender",
+                contents: "Comience a codificar con su idioma favorito en cualquier plataforma, sistema operativo y dispositivo.",
+                linkCodeR11: "",
+            },
+            {
                 linkHref: "https://www.codewars.com/",
                 targetType: "_blank",
                 imgSrc: "../public/images/app/codewars.jpg",
