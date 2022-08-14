@@ -364,14 +364,14 @@ const dbRutas = [
                         titleH3: "Web Dev | Google Developers",
                         contents: "Un curso permanente de CSS y un modelo para mejorar sus conocimientos sobre el diseño de páginas web.",
                         linkCodeR11: "",
-                    },                    
+                    },
                     {
                         linkHref: "https://web.dev/learn/design/",
                         targetType: "_blank",
                         imgSrc: "../public/images/app/wev-dev-responsive-design.jpg",
                         titleH2: "Aprende Responsive Design",
                         titleH3: "Web Dev | Google Developers",
-                        contents: "Un curso que explora todos los aspectos del diseño responsive. Aprenda a crear sitios que se vean geniales y funcionen bien para todos.",
+                        contents: "Un curso que explora todos los aspectos del diseño responsive. Aprenda a crear sitios que se vean geniales y funcionen bien para todositioss.",
                         linkCodeR11: "",
                     },
                     {
@@ -469,7 +469,7 @@ const dbRutas = [
                 titleH3: "Editor de Código y extensiones",
                 contents: "",
                 linkCodeR11: "",
-                cursos : [
+                cursos: [
                     {
                         linkHref: "https://code.visualstudio.com",
                         imgSrc: "../public/images/app/vs-code.jpg",
@@ -860,8 +860,8 @@ const dbRutas = [
     },
     {
         id: "11",
-        category: "trabajos-remotos",
-        linkHref: "trabajos-remotos.html",
+        category: "trabajos",
+        linkHref: "../page/trabajos-remotos.html",
         targetType: "",
         imgSrc: "../public/images/TrabajosRemotos.png",
         titleH2: "Proyectos y Trabajos Remotos",
@@ -869,21 +869,22 @@ const dbRutas = [
         contents: "",
         group: [
             {
-                linkHref: "trabajos-remotos.html",
-                targetType: "",
-                imgSrc: "https://yt3.ggpht.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s900-c-k-c0x00ffffff-no-rj",
+                linkHref: "https://arc.dev/",
+                targetType: "_blank",
+                imgSrc: "../public/images/app/arc-dev.jpg",
                 titleH2: "ARC()",
-                titleH3: "Inglés",
-                contents: "Búsqueda de trabajo a distancia",
+                titleH3: "Radicalmente diferente",
+                contents: "Búsqueda de trabajo a distancia donde las empresas aplican a ti.",
             },
-            {
-                linkHref: "trabajos-remotos.html",
-                targetType: "",
-                imgSrc: "https://miro.medium.com/max/1400/1*aTYOTFS4Vkr-nwHNML3GvQ.jpeg",
-                titleH2: "Otra",
-                titleH3: "Inglés",
-                contents: "Búsqueda de trabajo a distanciadonde. ",
-            }
+            /* {
+                linkHref: "",
+                targetType: "_blank",
+                imgSrc: "../",
+                titleH2: "",
+                titleH3: "",
+                contents: "",
+            }, */
+            
         ]
     },
     {
