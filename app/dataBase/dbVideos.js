@@ -320,6 +320,17 @@ const listaVideos = [
         categoria: "Portafolio",
         etiqueta: "",
     },
+    {
+        idVideo: "Rgojq9clGh0",
+        imagen: "hq720",
+        titulo: "¿Cómo conseguir trabajo de desarrollador frontend? ",
+        canal: "Gonzalo Pozzo",
+        texto: "Experiencias y realidades desde empezar a aprender hasta conseguir trabajo.",
+        imgAncho: "",
+        imgAlto: "",
+        categoria: "Trabajos",
+        etiqueta: "",
+    },
 
 ]
 

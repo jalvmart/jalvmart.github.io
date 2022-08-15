@@ -482,7 +482,7 @@ const dbRutas = [
                 ]
             },
             {
-                linkHref: "../page/ingles-libros.html",
+                linkHref: "#",
                 targetType: "",
                 imgSrc: "../public/images/app/ingles-libros.jpg",
                 titleH2: "Libros y Guías para aprender Inglés",
@@ -925,6 +925,15 @@ const dbRutas = [
                 titleH3: "Radicalmente diferente",
                 contents: "Búsqueda de trabajo a distancia donde las empresas aplican a ti.",
             },
+            {
+                linkHref: "../page/videos-trabajos.html",
+                targetType: "",
+                imgSrc: "../public/images/app/videos-trabajos.jpg",
+                titleH2: "Videos",
+                titleH3: "Trabajos Remotos, recomendaciones y experiencias.",
+                contents: "",
+            },
+            
             /* {
                 linkHref: "",
                 targetType: "_blank",

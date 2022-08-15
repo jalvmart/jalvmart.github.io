@@ -1,5 +1,6 @@
 /*
 categorias: 
+- Planificación-fiscal-para-informáticos-independientes
 - Consulta-Portafolios-Desarrolladores-Web
 - Portafolio-Inspiración
 - Aprende-Desarrollo-Web
@@ -7,9 +8,29 @@ categorias:
 - Recursos-para-Aprender-JavaScript
 - extensiones-vs-code
 - Inglés
+- Trabajo-remoto-para-programadores
+- Ganar-dinero-programación
 */ 
 
 const dbDirectorio = [
+    {
+        enlace : "https://www.youtube.com/watch?v=GYo9KXdD_go",
+        titulo : "10 formas para ganar dinero con la programación",
+        descripcion : "Algunas formas para ganar dinero con la programación.",
+        categoria : "Ganar-dinero-programación",
+    },
+    {
+        enlace : "https://www.youtube.com/watch?v=M93Pa8q44rk",
+        titulo : "TELETRABAJO o TRABAJO REMOTO | Desafíos y Oportunidades | Con @Juan Villalvazo 🔴 HackerLIVE#11",
+        descripcion : "Términos como trabajo remoto o teletrabajo han ganado en los últimos meses una importancia sin precedentes. Pero, ¿qué desafíos y oportunidades nos encontraremos en el momento de realizarlo o plantearnos su práctica? Juan Villalvazo dejó ya hace años su empleo para ponerlo en práctica En este directo nos habla de su experiencia y consejos trabajando de esta forma.",
+        categoria : "Planificación-fiscal-para-informáticos-independientes",
+    },
+    {
+        enlace : "https://www.youtube.com/watch?v=RyZEO62V3v4",
+        titulo : "¡TRABAJO REMOTO PROGRAMADOR! Los mejores sitios y estrategias para encontrarlo ✌️",
+        descripcion : " Sitios, estrategias y cosas que DEBES saber para encontrar tu próximo trabajo en remoto en el mundo de la programación.",
+        categoria : "Trabajo-remoto-para-programadores",
+    },
     {
         enlace : "https://platzi.com/blog/10-plugins-esenciales-para-vscode/",
         titulo : "10 Plugins o extensiones esenciales de VSCode para Frontends",
