@@ -460,7 +460,7 @@ const dbRutas = [
         titleH2: "Herramientas",
         titleH3: "",
         contents: "",
-        ingles : [
+        ingles: [
             {
                 linkHref: "../page/ingles-cursos.html",
                 targetType: "",
@@ -469,6 +469,17 @@ const dbRutas = [
                 titleH3: "",
                 contents: "",
                 linkCodeR11: "",
+                cursos: [
+                    {
+                        linkHref: "https://platzi.com/cursos/estrategias-ingles/",
+                        targetType: "_blank",
+                        imgSrc: "../public/images/app/platzi-estrategias-ingles.jpg",
+                        titleH2: "Curso de Inglés Gratis: Estrategias para Aprender en Línea",
+                        titleH3: "Platzi",
+                        contents: "Técnicas efectivas de aprendizaje que te van a ayudar a desarrollar habilidades y competencias sólidas para hablar inglés.",
+                        linkCodeR11: "",
+                    }
+                ]
             },
             {
                 linkHref: "../page/ingles-libros.html",

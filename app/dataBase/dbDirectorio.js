@@ -6,6 +6,7 @@ categorias:
 - Ideas-para-Proyectos
 - Recursos-para-Aprender-JavaScript
 - extensiones-vs-code
+- Inglés
 */ 
 
 const dbDirectorio = [
@@ -70,7 +71,13 @@ const dbDirectorio = [
         categoria : "Recursos-para-Aprender-JavaScript",
         etiqueta: "JavaScript"
     },
-
+    {
+        enlace : "https://www.infobooks.org/free-pdf-books/language-learning/english/",
+        titulo : "25+ English Learning Books for Free! [PDF]",
+        descripcion : "Libros para aprender inglés en formato PDF.",
+        categoria : "Inglés",
+        etiqueta: "Libros-Inglés"
+    },
 ]
 
 function crearDirectorio(registro){
