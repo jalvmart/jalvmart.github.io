@@ -78,6 +78,14 @@ const dbDirectorio = [
         categoria : "Inglés",
         etiqueta: "Libros-Inglés"
     },
+    {
+        enlace : "https://www.youtube.com/watch?v=v41bHv2OT7g",
+        titulo : "Javascript básico. Trabajando con arreglos y objetos. Agrupa datos como si fuera excel.",
+        descripcion : " recorrer un arreglo utilizando como ejemplo un archivo de excel. Aprenderás a agrupar los datos como lo hacen las tablas dinámicas de excel y a sumar los datos por un criterio específico.",
+        categoria : "JavaScript",
+        etiqueta: "Array and Object"
+    },
+
 ]
 
 function crearDirectorio(registro){

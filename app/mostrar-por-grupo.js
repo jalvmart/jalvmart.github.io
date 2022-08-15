@@ -16,6 +16,14 @@ function innerHTMLTecnologia() {
     let idCategoria = document.querySelector("body");
     let classCategoria = document.querySelector(".cards").classList[1];
     let doc = document.getElementById("card-container");
+    /* Cuando idCategoria.id == classCategoria son iguales
+       presentar información del grupo principal. (body#id=.cards) 
+       ejemplo: x == y (compara el id del elemento body con la clase cards del elemento)
+            x = document.querySelector("body") // body#herramientas.inicio
+            x.id // herramientas 
+            y = document.querySelector(".cards") // div#card-container.cards.herramientas 
+            y.classList[1] // herramientas
+    */
     if (idCategoria.id == classCategoria) {
         doc.innerHTML = `${result[0].group.map(createCardsG).join("")}`;
     } else if (doc) {
