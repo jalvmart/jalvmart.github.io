@@ -331,6 +331,17 @@ const listaVideos = [
         categoria: "Trabajos",
         etiqueta: "",
     },
+    {
+        idVideo: "enzWAM4Eh3Q",
+        imagen: "hq720",
+        titulo: "CÓMO BUSCAR TRABAJO en REMOTO como DESARROLLADOR",
+        canal: "Carlos Azaustre - Aprende JavaScript",
+        texto: " ¡Apúntate como Arc Featured Developer y consigue tu nuevo empleo en remoto como Desarrollador!",
+        imgAncho: "",
+        imgAlto: "",
+        categoria: "Trabajos",
+        etiqueta: "",
+    },
 
 ]
 
