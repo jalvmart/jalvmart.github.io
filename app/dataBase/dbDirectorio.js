@@ -10,9 +10,24 @@ categorias:
 - Inglés
 - Trabajo-remoto-para-programadores
 - Ganar-dinero-programación
+- Desarrollo-web
 */ 
 
 const dbDirectorio = [
+    {
+        enlace : "https://brainstation.io/career-guides/how-to-become-a-web-developer",
+        titulo : "How to Become a Web Developer",
+        descripcion : "BrainStation’s Web Developer career guide is intended to help you take the first steps toward a lucrative career in web development. The guide provides an in-depth overview of the development skills you should learn, the best web development training options, career paths in web development, how to become a Web Developer, and more.",
+        categoria : "Desarrollo-web",
+        status: "618",
+    },
+    {
+        enlace : "https://www.youtube.com/watch?v=EqzUcMzfV1w",
+        titulo : "Desarrollo web en 2022: una guía práctica",
+        descripcion : "Esta es mi guía anual que lo guiará de principio a fin en lo que respecta a las tecnologías de desarrollo web que están disponibles para desarrolladores frontend, backend y full-stack. 🚨 ¡Se ha lanzado el eBook premium extendido!",
+        categoria : "Desarrollo-web",
+        status: "618",
+    },
     {
         enlace : "https://www.youtube.com/watch?v=GYo9KXdD_go",
         titulo : "10 formas para ganar dinero con la programación",

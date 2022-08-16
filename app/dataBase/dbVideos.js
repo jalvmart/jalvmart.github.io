@@ -299,6 +299,17 @@ const listaVideos = [
         etiqueta: "",
     },
     {
+        idVideo: "YbkfXduo5vo",
+        imagen: "hq720",
+        titulo: "¿Cómo construir tu PORTAFOLIO?",
+        canal: "Programador X | Xavier Reyes Ochoa",
+        texto: "Analizo el diseño y el contenido para darte toda la información que necesitas para llevarlo a una entrevista de trabajo de empresas interesadas en tus habilidades o presentarlo a nuevos clientes si trabajas independientemente o como freelancer.",
+        imgAncho: "",
+        imgAlto: "",
+        categoria: "Portafolio",
+        etiqueta: "",
+    },
+    {
         idVideo: "s8XkgcxAagU",
         imagen: "hq720",
         titulo: "Revisamos portfolios y proyectos frontend en React #1",
