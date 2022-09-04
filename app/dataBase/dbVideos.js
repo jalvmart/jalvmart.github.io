@@ -10,7 +10,7 @@ const listaVideos = [
         categoria: "",
         etiqueta: "",
     }, */
-    
+
 
     {
         idVideo: "MJkdaVFHrto",
@@ -34,7 +34,7 @@ const listaVideos = [
         categoria: "HTML",
         etiqueta: "Tutorial",
     },
-    
+
     {
         idVideo: "bp_IXqYRgYw",
         imagen: "hq720_2",
@@ -51,6 +51,17 @@ const listaVideos = [
                 Design Gradients:</a> Fondos degradados.
                 `,
         categoria: "Tools",
+        etiqueta: "",
+    },
+    {
+        idVideo: "UgqnRtQgTCI",
+        imagen: "hq720",
+        titulo: "Cómo conseguir trabajo en la industria Tech",
+        canal: "Platzi | Freddy Vegas",
+        texto: "Aprende cómo conseguir empleo en la industria tech. Sin importar tu área de interés aprenderás a trazar una ruta profesional que te ayude a encontrar ese trabajo de tus sueños.",
+        imgAncho: "",
+        imgAlto: "",
+        categoria: "Trabajos",
         etiqueta: "",
     },
     {
@@ -246,7 +257,6 @@ const listaVideos = [
         categoria: "React",
         etiqueta: "",
     },
-    
     {
         idVideo: "aacwoizx1nc",
         imagen: "hq720",
@@ -263,7 +273,7 @@ const listaVideos = [
         categoria: "Bootcamp",
         etiqueta: "",
     },
-    
+
     {
         idVideo: "HtunPQtr-Xw",
         imagen: "hq720",
@@ -274,8 +284,8 @@ const listaVideos = [
         imgAlto: "",
         categoria: "Proyectos",
         etiqueta: "",
-    },    
-    
+    },
+
     {
         idVideo: "X-bPSOCFM5U",
         imagen: "hq720",
@@ -353,6 +363,28 @@ const listaVideos = [
         categoria: "Trabajos",
         etiqueta: "",
     },
+    {
+        idVideo: "zJSY8tbf_ys",
+        imagen: "hq720",
+        titulo: "Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)",
+        canal: "freeCodeCamp.org",
+        texto: "Aprende JavaScript, HTML y CSS en este curso de Desarrollo Web Frontend. En este curso masivo, pasará de no tener experiencia en codificación a tener las habilidades esenciales de un desarrollador web frontend. ",
+        imgAncho: "",
+        imgAlto: "",
+        categoria: "BootCamp",
+        etiqueta: "",
+    },
+    {
+        idVideo: "52q6OGbcIso",
+        imagen: "hq720",
+        titulo: "CREA esta APP usando HTML + CSS + JAVASCRIPT + JSON",
+        canal: "CodingTube",
+        texto: "Obtener datos, definir, leer y acceder a un archivo JSON JavaScript",
+        imgAncho: "",
+        imgAlto: "",
+        categoria: "Proyectos y Retos",
+        etiqueta: "",
+    },
 
 ]
 
@@ -382,10 +414,10 @@ function crearLista(registro) {
 
 const filtrar = document.getElementsByTagName("body")[0].id
 
-if (filtrar == "Todos"){
+if (filtrar == "Todos") {
     const videoItem = document.getElementById("videoItem")
     videoItem.innerHTML += `${listaVideos.map(crearLista).join("")}`
-    
+
 } else {
     const result = listaVideos.filter(x => x.categoria == filtrar);
     const videoItem = document.getElementById("videoItem")

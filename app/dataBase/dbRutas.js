@@ -625,6 +625,15 @@ const dbRutas = [
         notas: "Prácticas y ejercicios para probar, aprender y desarrolla tu lógica de Programación",
         group: [
             {
+                linkHref: "https://www.frontendmentor.io/",
+                targetType: "_blank",
+                imgSrc: "../public/images/app/imagen-generico.jpg",
+                titleH2: "Frontend Mentor",
+                titleH3: "Mejora tus habilidades de codificación front-end con proyectos reales",
+                contents: "Resuelve los desafíos de HTML, CSS y JavaScript del mundo real mientras trabaja con diseños profesionales.",
+                linkCodeR11: "",
+            },
+            {
                 linkHref: "https://replit.com/",
                 targetType: "_blank",
                 imgSrc: "../public/images/app/replit.jpg",
@@ -672,6 +681,15 @@ const dbRutas = [
         titleH3: "",
         contents: "",
         group: [
+            {
+                linkHref: "https://platzi.com/blog/como-crear-mi-ruta-de-aprendizaje-con-platzi/",
+                targetType: "_blank",
+                imgSrc: "../public/images/app/imagen-generico.jpg",
+                titleH2: "Platzi",
+                titleH3: "¿Cómo crear mi ruta de aprendizaje con Platzi?",
+                contents: "Cursos de Platzi que te van a ayudar a formar tu perfil profesional.",
+                linkCodeR11: "",
+            },
             {
                 linkHref: "https://fullstackopen.com/es/",
                 targetType: "_blank",
